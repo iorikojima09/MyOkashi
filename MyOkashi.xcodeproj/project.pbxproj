@@ -11,6 +11,8 @@
 		3B00B4E525FC5F6F0032D9E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00B4E425FC5F6F0032D9E6 /* ContentView.swift */; };
 		3B00B4E725FC5F700032D9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B00B4E625FC5F700032D9E6 /* Assets.xcassets */; };
 		3B00B4EA25FC5F700032D9E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B00B4E925FC5F700032D9E6 /* Preview Assets.xcassets */; };
+		3B00B4F325FC5FB20032D9E6 /* OkashiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00B4F225FC5FB20032D9E6 /* OkashiData.swift */; };
+		3B00B4F72600516D0032D9E6 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00B4F62600516D0032D9E6 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3B00B4E625FC5F700032D9E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B00B4E925FC5F700032D9E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B00B4EB25FC5F700032D9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B00B4F225FC5FB20032D9E6 /* OkashiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiData.swift; sourceTree = "<group>"; };
+		3B00B4F62600516D0032D9E6 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				3B00B4E225FC5F6F0032D9E6 /* MyOkashiApp.swift */,
 				3B00B4E425FC5F6F0032D9E6 /* ContentView.swift */,
+				3B00B4F62600516D0032D9E6 /* SafariView.swift */,
+				3B00B4F225FC5FB20032D9E6 /* OkashiData.swift */,
 				3B00B4E625FC5F700032D9E6 /* Assets.xcassets */,
 				3B00B4EB25FC5F700032D9E6 /* Info.plist */,
 				3B00B4E825FC5F700032D9E6 /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B00B4F72600516D0032D9E6 /* SafariView.swift in Sources */,
 				3B00B4E525FC5F6F0032D9E6 /* ContentView.swift in Sources */,
+				3B00B4F325FC5FB20032D9E6 /* OkashiData.swift in Sources */,
 				3B00B4E325FC5F6F0032D9E6 /* MyOkashiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
